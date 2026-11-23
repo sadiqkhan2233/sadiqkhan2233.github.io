@@ -5,10 +5,9 @@ const CONFIG = {
 
   /* ---------- Contact & links ---------- */
   contact: {
-    phone: "03317541373",
-    email: "afridisadiq949@gmail.com",                 // <-- your real email
-    github: "https://github.com/sadiqkhan2233",      // <-- your GitHub profile
-    linkedin: "https://www.linkedin.com/in/Sadiq Afridi" // <-- your LinkedIn profile
+    email: "your.email@example.com",                 // <-- your real email
+    github: "https://github.com/YOUR-USERNAME",      // <-- your GitHub profile
+    linkedin: "https://www.linkedin.com/in/YOUR-PROFILE" // <-- your LinkedIn profile
   },
 
   /* ---------- Short points shown in the About section ---------- */
@@ -244,12 +243,7 @@ function renderLinks() {
     el.href = CONFIG.contact[el.dataset.link];
   });
 
-  const phoneLink = CONFIG.contact.phone
-    ? `<a href="tel:${CONFIG.contact.phone.replace(/[^+\d]/g, "")}">📞 ${CONFIG.contact.phone}</a>`
-    : "";
-
   $("#contact-list").innerHTML = `
-    ${phoneLink}
     <a href="mailto:${CONFIG.contact.email}">✉️ ${CONFIG.contact.email}</a>
     <a href="${CONFIG.contact.github}" target="_blank" rel="noopener noreferrer">💻 GitHub</a>
     <a href="${CONFIG.contact.linkedin}" target="_blank" rel="noopener noreferrer">🔗 LinkedIn</a>
