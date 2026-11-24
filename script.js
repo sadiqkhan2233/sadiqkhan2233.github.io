@@ -244,7 +244,12 @@ function renderLinks() {
     el.href = CONFIG.contact[el.dataset.link];
   });
 
+  const phoneLink = CONFIG.contact.phone
+    ? `<a href="tel:${CONFIG.contact.phone.replace(/[^+\d]/g, "")}">📞 ${CONFIG.contact.phone}</a>`
+    : "";
+
   $("#contact-list").innerHTML = `
+    ${phoneLink}
     <a href="mailto:${CONFIG.contact.email}">✉️ ${CONFIG.contact.email}</a>
     <a href="${CONFIG.contact.github}" target="_blank" rel="noopener noreferrer">💻 GitHub</a>
     <a href="${CONFIG.contact.linkedin}" target="_blank" rel="noopener noreferrer">🔗 LinkedIn</a>
