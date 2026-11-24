@@ -5,7 +5,7 @@ const CONFIG = {
 
   /* ---------- Contact & links ---------- */
   contact: {
-     phone:"03317541373"
+    phone:"03317541373",
     email: "afridisadiq949@gmail.com",                 // <-- your real email
     github: "https://github.com/sadiqkhan2233",      // <-- your GitHub profile
     linkedin: "https://www.linkedin.com/in/Sadiq_Afridi" // <-- your LinkedIn profile
