@@ -156,7 +156,40 @@ const CONFIG = {
       description: "An AI assistant that supports learning by explaining topics and helping with study and practice.",
       tech: ["Python", "LLM API", "Streamlit"],
       demo: "", github: "", image: ""
+    },
+      {
+      name: "PSX AI Stock Predictor",
+      category: "Finance & AI",
+      icon: "📈",
+      description: "A machine learning project that generates BUY, HOLD or SELL signals for Pakistan Stock Exchange (PSX) stocks.",
+      tech: ["Python", "Machine Learning", "Google Colab", "Pandas"],
+      demo: "", github: "https://github.com/sadiqkhan2233/psx-ai-predictor", image: ""
+    },
+     {
+      name: "AI Accountant",
+      category: "Finance & AI",
+      icon: "🧾",
+      description: "An AI financial assistant that helps small businesses with accounting and everyday financial questions.",
+      tech: ["Python", "Streamlit", "LLM API"],
+      demo: "", github: "https://github.com/sadiqkhan2233/ai-accountant-app", image: ""
+    },
+     {
+      name: "IELTS AI Tutor",
+      category: "AI Apps",
+      icon: "🗣️",
+      description: "An AI app that helps students practise IELTS English speaking and grammar with instant feedback.",
+      tech: ["Python", "Streamlit", "Groq"],
+      demo: "", github: "https://github.com/sadiqkhan2233/ielts-ai-tutor", image: ""
+    },
+     {
+      name: "AI Learning Roadmap Generator",
+      category: "AI Apps",
+      icon: "🎓",
+      description: "An AI tool that creates a personalised step-by-step learning roadmap for a topic or skill.",
+      tech: ["Python", "LLM API", "Streamlit"],
+      demo: "", github: "https://github.com/sadiqkhan2233/ai-learning-roadmap-generator", image: ""
     }
+     
   ],
 
   /* ---------- Certifications & learning ----------
