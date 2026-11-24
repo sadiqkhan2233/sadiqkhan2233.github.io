@@ -173,8 +173,8 @@ const CONFIG = {
   education: {
     degree: "BS Accounting & Finance",
     university: "Kohat University of Science & Technology (KUST)",
-    cgpa: "Add your CGPA",
-    duration: "Add academic duration (e.g. 2023 – 2027)",
+    cgpa: "3.73",
+    duration: "2023-2027",
     coursework: ["Add relevant course 1", "Add relevant course 2", "Add relevant course 3"]
   },
 
