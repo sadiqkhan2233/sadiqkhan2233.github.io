@@ -15,4 +15,4 @@ index.html, style.css, script.js, robots.txt, sitemap.xml
 assets/images (project screenshots), assets/icons (favicon), assets/cv (CV PDF)
 
 ## Live website
-https://YOUR-USERNAME.github.io/
+https://sadiqkhan2233.github.io/
